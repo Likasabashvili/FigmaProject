@@ -192,7 +192,7 @@ body {
 .cards {
   display: flex;
   gap: 20px;
-  overflow: hidden;
+  overflow: scroll;
   margin-top: 100px;
 }
 .card {
@@ -202,10 +202,10 @@ body {
   width: 340px;
 }
 .card1 {
-  margin-left: -300px;
   background: #ffffff;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0 30px #0000001a;
   height: 424px;
+  width: 340px;
 }
 .card img {
   width: 340px;
@@ -213,7 +213,7 @@ body {
   object-fit: cover;
 }
 .card1 img {
-  width: 407px;
+  width: 340px;
   height: 215.27932739257812px;
   object-fit: cover;
 }
@@ -252,6 +252,7 @@ body {
   gap: 20px;
   padding: 70px;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .metis-naxva1 {
   padding: 12px 28px;
@@ -320,6 +321,7 @@ ul {
 .bolodivi {
   display: flex;
   gap: 90px;
+  flex-wrap: wrap;
 }
 .pirveli {
   font-size: 16px;
@@ -541,12 +543,12 @@ ul {
   margin-top: 347px;
 }
 .kontaktis-formebi {
-  max-width: 369px;
+  width: 369px;
   background: #ffffff;
   position: relative;
   padding-left: 18px;
   box-sizing: border-box;
-  margin-left: 440px;
+  margin: 0 auto;
 }
 
 .field {
@@ -602,5 +604,77 @@ ul {
   font-family: "Lato", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  margin-top: 50px;
+}
+
+@media screen and (max-width: 989px) {
+  .didi-satauri {
+    font-size: 100px;
+  }
+}
+
+@media screen and (max-width: 482px) {
+  .didi-satauri {
+    font-size: 70px;
+  }
+  .agwera {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 1094px) {
+  .fasi2 {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1149px) {
+  .sia ul {
+    gap: 10px;
+  }
+  .sia2 .ul {
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 642px) {
+  .ebautis-gverdi {
+    padding: 30px;
+    gap: 40px;
+  }
+}
+
+@media screen and (max-width: 577px) {
+  .teqstebi {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .teqstebi {
+    width: 300px;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .dabla {
+    margin-bottom: 50px;
+  }
+.qontaqtis-gverdi {
+  padding: 0;
+}
+  .kontaqtis-satauri {
+    font-size: 30px;
+  }
+
+  .kontaktis-formebi {
+    width: auto;
+  }
+}
+
+@media screen and (max-width:327px) {
+  .kontaqtis-satauri {
+    font-size: 29px;
+  }
 }
