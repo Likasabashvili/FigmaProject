@@ -373,7 +373,6 @@ ul {
   flex-direction: column;
   padding: 40px;
   color: #000000;
-  margin-top: 90px;
 }
 .fasi1 {
   text-align: center;
@@ -427,36 +426,37 @@ ul {
   border: none;
 }
 .fasii2 {
-  background-color: #020202;
+  background-color: white;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
-  width: 370.3851013183594px;
-  height: 580.1561279296875px;
+  width: 350px;
+  height: 462px;
   margin: 40px 20px;
   display: flex;
   flex-direction: column;
   padding: 40px;
-  color: white;
+  color: black;
 }
 .faseebi {
   display: flex;
   flex-direction: column;
-  gap: 13.85px;
+  gap: 12px;
   text-align: center;
 }
 .sia2 {
-  margin-top: 50px;
+  margin-top: 5px;
 }
 .ul {
   display: flex;
   flex-direction: column;
-  gap: 25.38px;
+  gap: 22px;
+  color: #747171;
 }
 .shemogviertdit2 {
   padding: 12px 20px;
   border-radius: 5px;
-  border: 2px solid #ffffff;
+  border: 2px solid #747171;
   background-color: transparent;
-  color: #ffffff;
+  color: #747171;
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
@@ -464,11 +464,46 @@ ul {
 .button2 {
   display: flex;
   justify-content: center;
-  margin-top: 60px;
+  margin-top: 30px;
+}
+.shemogviertdit:hover {
+  background-color: #ffffff;
+  color: black;
+  transition: 0.3s ease;
+  border: none;
+}
+.sia:hover {
+  margin-top: 30px;
+  color: white;
+}
+.fasii:hover {
+  background-color: #020202;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+  width: 350px;
+  height: 462px;
+  margin: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  color: white;
+}
+.fasii2:hover {
+  background-color: black;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+  width: 350px;
+  height: 462px;
+  margin: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  color: white;
+}
+.ul:hover {
+  color: #ffffff;
 }
 .shemogviertdit2:hover {
   background-color: #ffffff;
-  color: #020202;
+  color: black;
   transition: 0.3s ease;
   border: none;
 }
@@ -569,4 +604,3 @@ ul {
   font-weight: 400;
   margin-top: 50px;
 }
-
