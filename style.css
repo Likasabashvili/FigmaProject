@@ -650,20 +650,15 @@ ul {
   }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 494px) {
   .teqstebi {
     width: 300px;
     gap: 10px;
   }
-}
 
-@media screen and (max-width:500px) {
-  .dabla {
-    margin-bottom: 50px;
+  .qontaqtis-gverdi {
+    padding: 0;
   }
-.qontaqtis-gverdi {
-  padding: 0;
-}
   .kontaqtis-satauri {
     font-size: 30px;
   }
@@ -673,8 +668,20 @@ ul {
   }
 }
 
-@media screen and (max-width:327px) {
+@media screen and (max-width: 327px) {
   .kontaqtis-satauri {
     font-size: 29px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .kontaqtis-satauri {
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 735px) {
+  .dabla {
+    margin-bottom: 35px;
+    padding: 10px;
   }
 }
